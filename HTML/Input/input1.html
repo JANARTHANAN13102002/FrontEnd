@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input</title>
+</head>
+<body>
+    
+    <form>
+        
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="Jana" readonly><br><br>
+        
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="B" disabled><br><br>
+        
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" name="age"  maxlength="3" required><br><br>
+        
+        <label for="files">Upload files:</label>
+        <input type="file" id="files" name="files" multiple><br><br>
+        
+        <label for="country_code">Country code:</label>
+        <input type="text" id="country_code" name="country_code" pattern="[A-Za-z]{3}" title="Three letter country code"><br><br>
+        
+        <label for="phone">Enter a phone number:</label>
+        <input type="tel" id="phone" name="phone" placeholder="+91 - 9698758966"><br><br>
+        
+        <label for="points">Total Points:</label>
+        <input type="number" id="points" name="points" step="3"><br><br>
+
+        <input type="submit" value="submit">
+
+    </form>
+</body>
+</html>
