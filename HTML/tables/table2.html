@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Tag</title>
+    <link rel="icon" type="image/x-icon" href="/Images/image1.jpeg"> 
+
+
+    <style>
+        th,td{
+            width:25%;
+            padding: 8px; 
+            text-align: left; 
+            border-bottom: 1px solid #DDD;
+            padding-top: 10px;
+            padding-bottom: 20px;
+            padding-left: 30px;
+            padding-right: 40px;
+       }
+       tr:nth-child(odd)
+       {
+            background-color: aquamarine;
+       }
+    </style>
+</head>
+<body>
+    
+    <table>
+        <tr>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Points</th>
+        </tr>
+        <tr>
+          <td>Peter</td>
+          <td>Griffin</td>
+          <td>$100</td>
+        </tr>
+        <tr>
+          <td>Lois</td>
+          <td>Griffin</td>
+          <td>$150</td>
+        </tr>
+        <tr>
+          <td>Joe</td>
+          <td>Swanson</td>
+          <td>$300</td>
+        </tr>
+        <tr>
+          <td>Cleveland</td>
+          <td>Brown</td>
+          <td>$250</td>
+        </tr>
+      </table>
+
+
+      <br><br><br>
+
+      <table>
+        <tr>
+            <th>Name</th>
+            <td>jana</td>
+          </tr>
+          <tr>
+            <th rowspan="2">Phone</th>
+            <td>9865748596</td>
+          </tr>
+          <tr>
+            <td>8596745896</td>
+          </tr>
+      </table>
+
+
+      <br><br><br>
+
+      <table>
+        <caption style="font-size: 20px;"> Name List</caption>
+        <tr>
+            <th>Name</th>
+            <th>Phone</th>
+          </tr>
+          <tr>
+            <td>jana</td>
+            <td>9865748596</td>
+          </tr>
+          <tr>
+            <td>Hi</td>
+            <td>8596745896</td>
+          </tr>
+          <tr>
+            <td>Hello</td>
+            <td>8759641236</td>
+          </tr>
+      </table>
+
+</body>
+</html>
