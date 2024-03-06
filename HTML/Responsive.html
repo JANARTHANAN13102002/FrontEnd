@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive</title>
+
+    <style>
+        .left{
+            background-color: aquamarine;
+            float: left;
+            width: 20%;
+            height: 25%;
+            text-align: center;
+            font-size: 50px;
+        }
+        .main{
+            background-color: rgb(54, 107, 243);
+            float: left;
+            width: 60%;
+            height: 25%;
+            text-align: center;
+            font-size: 50px;
+        }
+        .right{
+            background-color: rgb(234, 12, 134);
+            float: left;
+            width: 20%;
+            height: 25%;
+            text-align: center;
+            font-size: 50px;
+        }
+
+
+        @media screen and  (max-width: 800px) {
+            .left, .main, .right{
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="left"><p >Left</p></div>
+    <div class="main"><p>Main</p></div> 
+    <div class="right"><p>Right</p></div> 
+
+</body>
+</html>
