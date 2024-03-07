@@ -8,3 +8,21 @@ body{
     column-rule: 2px solid black;
     column-gap: 3rem;
 }
+
+.column h2{
+    margin-top: 0;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    break-inside: avoid;
+}
+
+.quote{
+    margin-top: 2rem;
+    font-size: 3rem;
+    text-align: center;
+    color: aquamarine;
+    column-span: all;
+}
+
