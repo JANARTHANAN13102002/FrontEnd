@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    border: 15px double rgb(255, 0, 0);
+    outline: 5px solid #800080;
+    outline-offset: -25px;
+    /* border-top: 5px dashed;
+    border-right: 10px dashed;
+    border-bottom: 15px dashed;
+    border-left: 20px dashed; */
+
+    /* border-top-color: rgb(252, 86, 2);
+    border-right-color: blue;
+    border-bottom-color: yellowgreen;
+    border-left-color: pink; */
+
+    font-size: 2rem;
+
+    margin: 1.5em;
+    /* margin-top: 1.5rem;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem; */
+
+    text-align: center;
+
+    padding: 1.5em;
+    /* padding-top: 2rem;
+    padding-right:5rem ;
+    padding-bottom: 2rem;
+    padding-left: 5rem; */
+}
+
+.demo{
+    background-color: aqua;
+    width: 100px;
+    height:50px;
+    border: 3px dashed purple; 
+    outline: 2px solid red;
+    outline-offset: 5px;
+    margin: 5rem auto;
+    border-radius: 25px;
+
+}

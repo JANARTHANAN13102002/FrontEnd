@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-width: 100%;
+}
+
+h1{
+    border: 3px dashed black;
+    width:20%;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+main{
+    width:50vw;
+}
+
+p{
+    width:60vw;
+}
+
