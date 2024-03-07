@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body{
+    font-size: 2rem;
+}
+
+p{
+    background-color: lightblue;
+}
+
+.oppsite{
+    padding: 4rem;
+    background-color: black;
+    color: aliceblue;
+    display: inline-block;
+}
+
+ul{
+    list-style-type: none;
+    background-color: black;
+    text-align: right;
+    padding: 0.5rem;
+}
+
+li{
+    display: inline-block;
+    padding: 10px 0 10px 0;
+    margin-inline: 0.5rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* a:visited{
+    color: rgb(180, 178, 178);
+} */
+
+a:hover{
+    color: aquamarine;
+}
+
+a:active{
+    color: aqua;
+}
+

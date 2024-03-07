@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+}
+
+ul{
+    background-color: black;
+    padding: 30px;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    display: inline;
+    padding: 16px;
+}
+
+ul ::marker{
+    content: none;
+}

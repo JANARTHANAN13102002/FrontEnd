@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}   
+
+body{
+    text-align: center;
+    margin: 0.5rem;
+}
+
+nav{
+    border: 2px solid black;
+    border-radius: 2rem;
+    margin: 0 auto 1rem ;
+    max-width: 600px;
+    line-height: 7rem;
+    font-size: 3rem;
+}
+
+h2{
+    background-color: gold;
+    border-radius: 2rem 2rem  0 0 ;
+    padding: 1rem;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    border-top: 1px solid #000;
+    background-color: aquamarine;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#d{
+    border-radius:0 0 2rem 2rem;
+}
+
+a:visited{
+    color: black;
+}
+
+nav a:hover{
+    background-color: aquamarine;
+    width: 100%;
+}
+
