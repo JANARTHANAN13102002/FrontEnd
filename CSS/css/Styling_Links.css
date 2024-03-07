@@ -1,0 +1,22 @@
+body{
+    padding: 10%;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: blue;
+}
+
+a:visited{
+    color: purple;
+}
+
+a:hover, a:focus {
+    color: rgb(64, 0, 255);
+    opacity:0.8;
+}
+
+a:active{
+    color: brown;
+}

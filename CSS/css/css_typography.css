@@ -1,9 +1,21 @@
 
 body{
     padding: 20%;
-    font-size: larger;   
+    font-size: larger;  
+    font-family:sans-serif; 
 }
 
-input{
+/* input{
     font:inherit
+} */
+
+p{
+    text-decoration:none;
+    text-transform: capitalize;
+    text-align: justify;/*left right justify*/
+    text-indent: 5em; /* Start from the Center of the Topics*/
+    line-height: 1.5; /* Increase the height of the line*/
+    letter-spacing: 1.5px; /*Increase the Space Between Letters*/
+    font-weight: 500; /* To bold the Words*/
+    /* font-style: oblique; */
 }
