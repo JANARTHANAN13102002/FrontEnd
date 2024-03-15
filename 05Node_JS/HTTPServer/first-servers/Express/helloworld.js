@@ -1,8 +1,13 @@
+const path = require("path");
 const express = require('express');
 const app = express();
-const path = require('path')
 const port = 3000;
 const host = "localhost";
+
+
+app.get('/', function (req, res) {  
+    res.redirect('/welcome'); 
+}); 
 
 app.get('/' , (req,res) => {
     res.sendFile(path.join(__dirname,'htmlFile.html'));
@@ -19,7 +24,6 @@ app.get('/welcome', function (req, res) {
 app.get('/image', (req,res) => {
     res.sendFile(path.join(__dirname, './Image_list.jpeg'));
 });
-
 
 
 app.listen(port , host , () => {
